@@ -38,9 +38,9 @@ public class LogSendServiceImpl implements SendService{
         long beforeTime = System.currentTimeMillis();
 
         /* 동기 방식 */
-        /*notices.forEach(notice ->
-                sendLog(notice.getTitle())
-        );*/
+        // notices.forEach(notice ->
+        //         sendLog(notice.getTitle())
+        // );
 
         /* 비동기 방식 */
         notices.forEach(notice ->
